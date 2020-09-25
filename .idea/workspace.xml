@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72e901ab-51e7-4fde-b024-e9d89f04acf7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pigeon-icon.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +35,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600799234656</updated>
       <workItem from="1600799236565" duration="1583000" />
-      <workItem from="1601004460273" duration="910000" />
+      <workItem from="1601004460273" duration="8614000" />
     </task>
     <servers />
   </component>

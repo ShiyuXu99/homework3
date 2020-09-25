@@ -8,67 +8,115 @@ There are some missing selectors.
 Make sure to learn what the starter code does!!
 */
 
-body{
-  color: #000000;
-  font-size: 16px;
-  margin: 1.2em;
-  font-family: 'Andika', sans-serif;
-  background-size: cover ;
-  background-position: center;
+body {
+    color: #000000;
+    font-size: 16px;
+    margin: 1.2em;
+    font-family: "Andika", sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/pigeon-background.JPEG");
+    background-color: #DDDDDD;
 }
 
-main{
-  margin-bottom: 100px;
+main {
+    margin-bottom: 100px;
 }
 
-h1{
-  color: #c12258;
-  font-size: 2em;
+h1 {
+    color: #c12258;
+    font-size: 2em;
+    line-height: 2em;
+    text-align: center;
 }
 
-caption{
-  margin:5px 0px;
+caption {
+    margin: 5px 0px;
 }
 
-p{
-  padding-top: 15px;
+p {
+    padding-top: 15px;
 }
 
-a:link{
-  color: #C12258;
+a:link {
+    color: #C12258;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
 }
 
-table{
+table {
     border: 2px solid #000000;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
-.colhead{
-  background-color: #7e0830;
-  color: #FFFFFF;
+.colhead {
+    background-color: #7e0820;
+    color: #FFFFFF;
+    min-width: 125px;
+    padding: 10px;
+    vertical-align: middle;
+    align-items: center;
+    text-transform: uppercase;
 }
 
-.rowhead{
+.rowhead {
+    border-top: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+td {
+    border-top: 2px solid #000000;
 
 }
 
-td{
-  
+tr:nth-child(even) {
+    background: #D1D1D1
 }
 
-tr{
-
+tr:nth-child(odd) {
+    background: transparent;
 }
 
-*{
-
+tr:hover {
+    background-color: rgba(126, 8, 32, 0.25);
 }
 
-thead tr:first-child th:first-child{}
+thead tr:first-child th:first-child {
+    border-radius: 10px 0px 0px 0px;
+}
 
-footer{
-  width:100%;
-  background:#000000;
-  text-align:center;
-  color: #FFFFFF;
+thead tr:first-child th:last-child {
+    border-radius: 0px 10px 0px 0px;
+}
+
+tbody tr:last-child th {
+    border-radius: 0px 0px 0px 10px;
+}
+
+tbody tr:last-child td:last-child {
+    border-radius: 0px 0px 10px 0px;
+}
+
+
+*:focus {
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #417243;
+}
+
+footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: #000000;
+    text-align: center;
+    color: #FFFFFF;
+    min-height: 75px;
+    position: fixed;
 }
 
