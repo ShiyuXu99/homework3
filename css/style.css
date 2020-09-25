@@ -17,6 +17,7 @@ body {
     background-position: center;
     background-image: url("../images/pigeon-background.JPEG");
     background-color: #DDDDDD;
+    background-repeat: no-repeat;
 }
 
 main {
@@ -65,12 +66,12 @@ table {
 .rowhead {
     border-top: 2px solid #000000;
     border-right: 2px solid #000000;
-    border-collapse: separate;
-    border-spacing: 0px;
+    padding: 10px;
 }
 
 td {
     border-top: 2px solid #000000;
+    padding: 10px;
 
 }
 
