@@ -31,11 +31,11 @@ caption{
 }
 
 p{
-
+  padding-top: 15px;
 }
 
-a{
-
+a:link{
+  color: #C12258;
 }
 
 table{
